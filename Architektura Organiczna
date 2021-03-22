@@ -1,0 +1,150 @@
+<!DOCTYPE HTML>
+<html>
+    <head>
+        <title></title>
+        <meta charset="utf-8">
+		<style>
+		
+			.title { 
+			background-color: white;
+			padding: 10px;
+			border: dashed 5px grey; 
+			font-family: Impact, fantasy;
+		  }
+		  .tekst {
+		  color: white;
+		  font-family: Arial, sans-serif;
+		  margin-left: 100px;
+		  margin-right: 100px;
+		  margin-top: 50px;
+		  margin-bottom: 50px;
+		   font-size: 20px;
+		 }
+		 
+		 .podpis {
+		 font-family: Andale Mono, monospace;
+		 font-style: bold;
+		 padding: 10px;
+		 background-color: black;
+		 color: white;
+		 margin-left: 200px;
+		  margin-right: 200px;
+		  
+		}
+		.picture{
+		border: solid white 5px;
+		}
+		.lista{
+		background-color: white;
+		color: black;
+		  font-family: Arial, sans-serif;
+		    font-size: 20px;
+			padding: 30px;
+			border: solid black 5px;
+			margin-left: 300px;
+		  margin-right: 300px;
+			
+		}
+		
+		#nawigacja {
+		position: fixed;
+		z-index: 1;
+		bottom: 5px;
+		left: 10px;
+		}
+		.naw {
+		background-color: white;
+		font-family: Arial, sans-serif;
+		border: solid black 2px;
+		padding: 5px;
+		}
+		
+		.podtytul {
+		font-family: Impact, fantasy;
+		font-size: 30px;
+		color: black;
+		margin-left: 80px;
+		margin-right: 80px;
+		padding: 10px;
+		background-color: white;
+		}
+		
+		
+		.picture2{
+		border: solid white 5px;
+		width: 500px;
+		margin-left: 70px;
+		}
+		
+		
+		</style>
+		 </head>
+		 
+		
+		 <body background="SM/tło3.jfif">
+
+		 <p class="naw" id="nawigacja"> <a href="Style Architektury.html"> Powrót do strony głównej  </a> </p>
+		  <center>
+
+		  <h1 class="title">Styl Międzynarodowy</h1> </center>
+		  
+		  <p class="tekst"> </p>
+		  
+		   <center> 
+		   <img class="picture" src="" >
+		   <p class="podpis"> </p>
+		  </center> 
+		  
+		  
+		  <h1 class="podtytul">Główne założenia :</h1>
+		  <p class="tekst">   </p>
+		  
+		  <h1 class="podtytul">Nazwa</h1>
+		  <p class="tekst">   </p>
+		  
+		  <center> 
+		   <img class="picture" src="" >
+		   <p class="podpis"> </p>
+		  </center> 
+		  
+		  <h1 class="podtytul">Cechy budynku </h1>
+		  <p class="tekst">   </p>
+		  
+		   <p class="podtytuł"> 
+			Najpopularniejsi architekci :
+			<ul class="lista">
+			<li> <a target="_blank=" href=""> </a> </li>
+			<li> <a target="_blank=" href=""> </a> </li>
+			<li> <a target="_blank=" href="">
+			</a>
+			<li> <a target="_blank=" href="">  </a> </li>
+			<li> <a target="_blank=" href="">  </a> </li>
+			</ul>
+			</p>
+			
+			<p class="tekst"> Chcesz dowiedzieć się więcej o ? Sprawdź Wikipedię, <a target="_blank=" href=""> klikając tutaj</a>. </p>
+		   
+		   <center> <p class="tekst">  Poznaj więcej budynków charakterystycznych dla : </p> 
+		   <table> <tbody>
+			<tr>
+			<td>
+		  <img class="picture2" src=""><p class="podpis">  </p>
+		  </td>
+		  <td>
+		  <img class="picture2" src=""><p class="podpis"> </p>
+		   </td>
+		   </tr>
+
+		  </tbody>
+        </table>
+		   
+		   
+		   
+		  </center> 
+		  
+		  </p>
+		 
+		  
+		  </p>
+		 </body>
+</html>
